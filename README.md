@@ -16,11 +16,8 @@ We apply a single neural network to the full image. This network divides the ima
    
    
 ## Important files
-- **1_Load_and_Visualize_Data.ipynb** : Learn to create a data loader and visualize the data
-- **data_load.py** : The Data loader
-- **2_Define_the_Network_Architecture.ipynb** : Load, train and validate the convolutional neural network.
-- **models.py** : The Convolutional neural network
-- **3_Facial_Keypoint_Detection_Complete_Pipeline.ipynb** : Test and compare the model with the cascade classifier.
+- **traffic_object_detection.py** : The application for recognizing objects
+- **darknet.py** : The Yolov3 software
     
     
 ## Installation and usage
@@ -30,7 +27,7 @@ $ cd <your workspace folder>
 $ https://github.com/embmike/Real-Time-Object-Detection-With-Yolo.git
 ```    
    
-Download the (!cnn-weights)[https://pjreddie.com/media/files/yolov3.weight] to the repository folder
+Download the [cnn-weights](https://pjreddie.com/media/files/yolov3.weight) to the repository folder
 
 Install data science tool   
 [Anaconda](https://www.anaconda.com/)
@@ -40,7 +37,7 @@ Then create a new anaconda environment and activate
 $ conda env create -f yolov3.yml.yml
 $ conda activate yolov3
 ```
-    
+
     
 ## Licence
 This project is licensed under the terms of the [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
