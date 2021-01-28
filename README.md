@@ -30,7 +30,7 @@ $ cd <your workspace folder>
 $ https://github.com/embmike/Real-Time-Object-Detection-With-Yolo.git
 ```    
    
-Download the (cnn-weights)[https://pjreddie.com/media/files/yolov3.weight] to the repository folder
+Download the (!cnn-weights)[https://pjreddie.com/media/files/yolov3.weight] to the repository folder
 
 Install data science tool   
 [Anaconda](https://www.anaconda.com/)
