@@ -39,7 +39,7 @@ $ conda env create -f yolov3.yml
 $ conda activate yolov3
 ```
 
-Open comman windows and start application
+Open command windows and start application
 ```sh
 $ cd <your repository path>\Real-Time-Object-Detection-With-Yolo
 $ <your anaconda path>\Anaconda3\envs\yolov3\python traffic_object_detection.py --video <your video>.mp4
