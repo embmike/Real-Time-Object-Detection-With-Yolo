@@ -1,0 +1,4 @@
+# Github: File to ignore
+__pycache__/
+yolov3.weights
+traffic3.mp4
