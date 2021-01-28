@@ -27,17 +27,23 @@ $ cd <your workspace folder>
 $ https://github.com/embmike/Real-Time-Object-Detection-With-Yolo.git
 ```    
    
-Download the [cnn-weights](https://pjreddie.com/media/files/yolov3.weight) to the repository folder
+Download the cnn-weights to the repository folder    
+https://pjreddie.com/media/files/yolov3.weights
 
 Install data science tool   
 [Anaconda](https://www.anaconda.com/)
 
 Then create a new anaconda environment and activate
 ```sh
-$ conda env create -f yolov3.yml.yml
+$ conda env create -f yolov3.yml
 $ conda activate yolov3
 ```
 
+Open comman windows and start application
+```sh
+$ cd <your repository path>\Real-Time-Object-Detection-With-Yolo
+$ <your anaconda path>\Anaconda3\envs\yolov3\python traffic_object_detection.py --video <your video>.mp4
+```
     
 ## Licence
 This project is licensed under the terms of the [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
