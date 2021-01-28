@@ -1,5 +1,5 @@
 # Real-time object detection with Yolo
-This sample software uses the Yolov3 project to recognize traffic objects and their bounding boxes in videos.
+This sample application uses the [Yolov3](https://pjreddie.com/darknet/yolo/) software to recognize traffic objects and their bounding boxes in a video.
 
 **Yolov3 writes about this**    
 We apply a single neural network to the full image. This network divides the image into regions and predicts bounding boxes and probabilities for each region. These bounding boxes are weighted by the predicted probabilities.
@@ -27,7 +27,7 @@ $ cd <your workspace folder>
 $ https://github.com/embmike/Real-Time-Object-Detection-With-Yolo.git
 ```    
    
-Download the cnn-weights to the repository folder    
+Download the cnn-weights to the project folder    
 https://pjreddie.com/media/files/yolov3.weights
 
 Install data science tool   
