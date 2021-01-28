@@ -1,19 +1,15 @@
-# Facial Keypoint Detection
-This project is part of my computer vision course of[ Udacity](https://www.udacity.com/course/computer-vision-nanodegree--nd891). A neural convolution network recognizes faces in images based on learned facial keypoints. 
-These keypoints mark important areas of the face: the eyes, corners of the mouth, the nose, etc. These keypoints are relevant for a variety of tasks, such as face filters, emotion recognition, pose recognition, and so on. 
+# Real-time object detection with Yolo
+This excample software using the Yolov3 project to detects traffic objects and they boundig boxes.
 
-Likewise the computer vision method hair feature-based cascade uses these features, see [OpenCV-Python tutorial](https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_objdetect/py_face_detection/py_face_detection.html).
-
-[PyTorch](https://pytorch.org/), the open source machine learning framework, is used to implement, train and test the convolutional neural network.
+**Yolov3 writes about this**
+We apply a single neural network to the full image. This network divides the image into regions and predicts bounding boxes and probabilities for each region. These bounding boxes are weighted by the predicted probabilities.
     
     
 ### Examples
 
-+ **Detect all faces using Haar Cascade Classifiers using OpenCV**
-![Cascade Classifiers Images](/output_images/cascade_classifier.png "Detect all faces using Haar Cascade Classifiers using OpenCV")   
++ **Detects a car and a truck in a video**   
+![Traffic objects](/images/car_and_truck.PNG "Detects a car and a truck in a video")   
 
-+ **Detect facial keypoint with a Convolutional Neural Network**
-![CNN Images](/output_images/cnn_persons.png "Detect facial keypoint with a Convolutional Neural Network")
    
    
 ## Important files
