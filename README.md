@@ -1,5 +1,5 @@
 # Real-time object detection with Yolo
-This excample software using the Yolov3 project to detects traffic objects and they boundig boxes.
+This sample software uses the Yolov3 project to recognize traffic objects and their bounding boxes in videos.
 
 **Yolov3 writes about this**
 We apply a single neural network to the full image. This network divides the image into regions and predicts bounding boxes and probabilities for each region. These bounding boxes are weighted by the predicted probabilities.
