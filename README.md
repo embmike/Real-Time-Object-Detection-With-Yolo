@@ -8,7 +8,10 @@ We apply a single neural network to the full image. This network divides the ima
 ### Examples
 
 + **Detects a car and a truck in a video**   
-![Traffic objects](/images/car_and_truck.PNG "Detects a car and a truck in a video")   
+![Traffic objects 1](/images/car_and_truck.PNG "Detects a car and a truck in a video")    
+    
++ **Detects two cars in a video**   
+![Traffic objects 2](/images/two_cars.PNG "Detects to cars in a video") 
 
    
    
@@ -24,10 +27,19 @@ We apply a single neural network to the full image. This network divides the ima
 Clone the repository
 ```sh
 $ cd <your workspace folder>
-$ git clone https://github.com/embmike/Facial-Keypoint-Detection.git
-```
+$ https://github.com/embmike/Real-Time-Object-Detection-With-Yolo.git
+```    
+   
+Download the (cnn-weights)[https://pjreddie.com/media/files/yolov3.weight] to the repository folder
 
-You can use the code for example on your computer with [Anaconda](https://www.anaconda.com/) or via cloud computing with [Google Colaboratory](https://colab.research.google.com/)
+Install data science tool   
+[Anaconda](https://www.anaconda.com/)
+
+Then create a new anaconda environment and activate
+```sh
+$ conda env create -f yolov3.yml.yml
+$ conda activate yolov3
+```
     
     
 ## Licence
