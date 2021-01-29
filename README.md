@@ -1,8 +1,10 @@
 # Real-time object detection with Yolo
 This sample application uses the [Yolov3](https://pjreddie.com/darknet/yolo/) software to recognize traffic objects and their bounding boxes in a video.
 
-**Yolov3 writes about this**    
+**The Yolov3 website says**    
 We apply a single neural network to the full image. This network divides the image into regions and predicts bounding boxes and probabilities for each region. These bounding boxes are weighted by the predicted probabilities.
+
+You only look once (YOLO)
     
     
 ### Examples
@@ -39,7 +41,7 @@ $ conda env create -f yolov3.yml
 $ conda activate yolov3
 ```
 
-Open command windows and start application
+Open command windows and start application to recognize objects in a video
 ```sh
 $ cd <your repository path>\Real-Time-Object-Detection-With-Yolo
 $ <your anaconda path>\Anaconda3\envs\yolov3\python traffic_object_detection.py --video <your video>.mp4
